@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using PlatformService.Models;
 
@@ -10,13 +11,22 @@ namespace PlatformService.Data
 {
     public static class PrepDb
     {
-        public static void PrepPopulation(IApplicationBuilder app){
+        public static void PrepPopulation(IApplicationBuilder app,bool isProd){
             using(var serviceScope = app.ApplicationServices.CreateScope()){
-                SeedData(serviceScope.ServiceProvider.GetService<AppDbContext>());
+                SeedData(serviceScope.ServiceProvider.GetService<AppDbContext>(),isProd);
             }
         }
 
-        private static void SeedData(AppDbContext context){
+        private static void SeedData(AppDbContext context,bool isProd){
+            if(isProd){
+                Console.WriteLine("--> Menjalankan Migrasi");
+                try{
+                    context.Database.Migrate();
+                }catch(Exception ex){
+                    Console.WriteLine($"--> Gagal melakukan migrasi {ex.Message}");
+                }
+            }
+            
             if(!context.Platforms.Any()){
                 Console.WriteLine("--> Seeding data....");
                 context.Platforms.AddRange(

@@ -31,7 +31,7 @@ namespace CommandsService.EventProcessing
                     Console.WriteLine("Platform Published Event Detected");
                     return EventType.PlatformPublished;
                 default:
-                    Console.WriteLine("-->Could not determine event type");
+                    Console.WriteLine("-->Could not determine the event type");
                     return EventType.Undetermined;
             }
         }
@@ -61,7 +61,7 @@ namespace CommandsService.EventProcessing
                         Console.WriteLine("--> Platform added !");
                     }
                     else{
-                        Console.WriteLine("--> Platform already exist");
+                        Console.WriteLine("--> Platform alredy exist");
                     }
                 }catch(Exception ex){
                     Console.WriteLine($"--> Could not add Platform to DB {ex.Message}");

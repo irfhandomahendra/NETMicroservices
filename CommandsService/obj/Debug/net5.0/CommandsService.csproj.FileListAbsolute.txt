@@ -1,5 +1,4 @@
 D:\AGIT BOOTCAMP\NETMicroservices\CommandsService\bin\Debug\net5.0\appsettings.Development.json
-D:\AGIT BOOTCAMP\NETMicroservices\CommandsService\bin\Debug\net5.0\appsettings.json
 D:\AGIT BOOTCAMP\NETMicroservices\CommandsService\bin\Debug\net5.0\CommandsService.exe
 D:\AGIT BOOTCAMP\NETMicroservices\CommandsService\bin\Debug\net5.0\CommandsService.deps.json
 D:\AGIT BOOTCAMP\NETMicroservices\CommandsService\bin\Debug\net5.0\CommandsService.runtimeconfig.json
@@ -37,3 +36,5 @@ D:\AGIT BOOTCAMP\NETMicroservices\CommandsService\obj\Debug\net5.0\CommandsServi
 D:\AGIT BOOTCAMP\NETMicroservices\CommandsService\obj\Debug\net5.0\ref\CommandsService.dll
 D:\AGIT BOOTCAMP\NETMicroservices\CommandsService\obj\Debug\net5.0\CommandsService.pdb
 D:\AGIT BOOTCAMP\NETMicroservices\CommandsService\obj\Debug\net5.0\CommandsService.genruntimeconfig.cache
+D:\AGIT BOOTCAMP\NETMicroservices\CommandsService\bin\Debug\net5.0\appsettings.Production.json
+D:\AGIT BOOTCAMP\NETMicroservices\CommandsService\bin\Debug\net5.0\RabbitMQ.Client.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\AGIT BOOTCAMP\\NETMicroservices\\CommandsService\\CommandsService.csproj": {}
+    "D:\\AGIT BOOTCAMP\\NETMicroservices\\CommandsService\\CommandsService.csproj": {}
   },
   "projects": {
-    "d:\\AGIT BOOTCAMP\\NETMicroservices\\CommandsService\\CommandsService.csproj": {
+    "D:\\AGIT BOOTCAMP\\NETMicroservices\\CommandsService\\CommandsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\AGIT BOOTCAMP\\NETMicroservices\\CommandsService\\CommandsService.csproj",
+        "projectUniqueName": "D:\\AGIT BOOTCAMP\\NETMicroservices\\CommandsService\\CommandsService.csproj",
         "projectName": "CommandsService",
-        "projectPath": "d:\\AGIT BOOTCAMP\\NETMicroservices\\CommandsService\\CommandsService.csproj",
+        "projectPath": "D:\\AGIT BOOTCAMP\\NETMicroservices\\CommandsService\\CommandsService.csproj",
         "packagesPath": "C:\\Users\\Irfhando Mahendra\\.nuget\\packages\\",
-        "outputPath": "d:\\AGIT BOOTCAMP\\NETMicroservices\\CommandsService\\obj\\",
+        "outputPath": "D:\\AGIT BOOTCAMP\\NETMicroservices\\CommandsService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Irfhando Mahendra\\AppData\\Roaming\\NuGet\\NuGet.Config"
